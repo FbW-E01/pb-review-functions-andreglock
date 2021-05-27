@@ -12,8 +12,9 @@ const sameType = (array) => {
     }
     return true;
 }
-console.log('8:', typeof sum());
-console.log('9:', typeof sameType());
+
+console.log('8:', typeof sum);
+console.log('9:', typeof sameType);
 const minMax = (min, max) => {
     return randomGen = () => {
         return Math.random() * (max - min) + min;
